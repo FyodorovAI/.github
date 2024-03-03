@@ -13,11 +13,9 @@ To start using the Fyodorov services, you must first sign up and authenticate. Y
 ```bash
 ./fyodorov auth
 ```
-## Configuring the CLI
 
-After authentication, you can set up your Fyodorov environment. While the CLI provides multiple configuration commands, here's how to set up a basic configuration for deployment:
+## Deploying the Configuration
 
-Navigate to the directory where your configuration file is located.
 If you haven't already created a configuration file, here's an example fyodorov_config.yml to get started:
 ```yaml
 version: 0.0.1
@@ -36,8 +34,6 @@ agents:
     model: chatgpt
     prompt: My name is Daniel. Please greet me and politely answer my questions.
 ```
-
-## Deploying the Configuration
 
 Once your configuration is set and saved, you can deploy it using the Fyodorov CLI tool:
 
