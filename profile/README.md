@@ -14,6 +14,8 @@ To start using the Fyodorov services, you must first sign up and authenticate. Y
 ./fyodorov auth
 ```
 
+You will need an invite code. If you weren't provided with one you can try this: `GITHUB`
+
 ## Deploying the Configuration
 
 If you haven't already created a configuration file, here's an example fyodorov_config.yml to get started:
