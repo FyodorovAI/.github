@@ -1,58 +1,9 @@
-# Fyodorov CLI Tool
+# Fyodorov AI Suite
+Glad you're checking out the project! If you're interested please [star this GitHub repo](https://github.com/FyodorovAI/Gagarin).
 
-The Fyodorov CLI tool is designed to streamline your interaction with Fyodorov services, including authentication, and deployment. Below are the instructions to get started with signing up and deploying your configuration.
+If you just want to be notified when new functionality is added, you can follow the project on [Twitter](https://twitter.com/FyodorovAISuite).
 
-## Installation
+If you want to discuss the project, ask for help, or otherwise get more involved in the community feel free to join us on [Discord](https://discord.gg/ChCTeC8qwE)
 
-Before using the Fyodorov CLI tool, ensure you downloaded the correct binary for your system.
-
-## Signing Up
-
-To start using the Fyodorov services, you must first sign up and authenticate. You can do this directly through the CLI tool:
-
-```bash
-./fyodorov auth
-```
-
-You will need an invite code. If you weren't provided with one you can try this: `GITHUB`
-
-## Deploying the Configuration
-
-If you haven't already created a configuration file, here's an example fyodorov_config.yml to get started:
-```yaml
-version: 0.0.1
-providers:
-  - name: openai
-    api_url: https://api.openai.com/v1
-models:
-  - name: chatgpt
-    provider: openai
-    model_info:
-      mode: chat
-      base_model: gpt-3.5-turbo
-agents:
-  - name: My Agent
-    description: My agent for chat conversations
-    model: chatgpt
-    prompt: My name is Daniel. Please greet me and politely answer my questions.
-```
-
-Once your configuration is set and saved, you can deploy it using the Fyodorov CLI tool:
-
-```bash
-./fyodorov deploy config.yml
-```
-This command will deploy your current configuration to the Fyodorov platform, making it active and ready to use.
-
-## Getting Help
-
-For more detailed information about each command, you can use the help flag:
-```bash
-./fyodorov [command] --help
-```
-For example:
-
-```bash
-./fyodorov deploy --help
-```
-This will provide detailed usage instructions for the deploy command.
+## Trying out Fyodorov
+If you want to try out Fyodorov, the best way is to download and set up the command line tool. Directions for that can be found [here](./CLI.md)
