@@ -12,7 +12,10 @@ If you want to discuss the project, ask for help, or otherwise get more involved
 Fyodorov and all of it's tools are ALPHA software!
 
 ## Trying out Fyodorov
-If you want to try out Fyodorov, the best way is to download and set up the command line tool. Directions for that can be found [here](./CLI.md)
+If you want to try out Fyodorov, the best way is to [download](https://github.com/FyodorovAI/fyodorov-cli/releases) 
+and set up the command line tool. Directions for that can be found [here](./CLI.md)
+
+You can use the tool to sign up, create agents, and chat with them.
 
 ## Running it locally
 Directions on running Fyodorov locally are available [here](./LOCAL.md).
