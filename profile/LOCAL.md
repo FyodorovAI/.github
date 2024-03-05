@@ -27,4 +27,4 @@ JWT_SECRET=''
 ## Postgres
 You will need to create the following tables:
 
-![Table Schemas & Relationships Visualized](./schema_visualization.png)
+![Table Schemas & Relationships Visualized](./imgs/schema_visualization.png)

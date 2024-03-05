@@ -16,3 +16,9 @@ If you want to try out Fyodorov, the best way is to download and set up the comm
 
 ## Running it locally
 Directions on running Fyodorov locally are available [here](./LOCAL.md).
+
+## Features under development
+We are developing functionality to allow adding **tools** to agents, which will allow you to significantly 
+extend their functionality.
+
+After that we will be adding more functionality to allow providing personal datasets to the LLM to give it more context.

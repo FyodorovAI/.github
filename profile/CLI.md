@@ -10,11 +10,13 @@ Before using the Fyodorov CLI tool, ensure you downloaded the correct binary for
 
 To start using the Fyodorov services, you must first sign up and authenticate. You can do this directly through the CLI tool:
 
-```bash
+```shell
 ./fyodorov auth
 ```
 
-You will need an invite code. If you weren't provided with one you can try this: `GITHUB`
+You can use the hosted version at [https://gagarin.danielransom.com](https://gagarin.danielransom.com) to sign up and test your models.
+
+You will need an invite code. If you weren't provided with one you can try this one: `GITHUB`
 
 ## Deploying the Configuration
 
@@ -39,20 +41,45 @@ agents:
 
 Once your configuration is set and saved, you can deploy it using the Fyodorov CLI tool:
 
-```bash
+```shell
 ./fyodorov deploy config.yml
 ```
-This command will deploy your current configuration to the Fyodorov platform, making it active and ready to use.
+
+This command will deploy your current configuration to the Fyodorov platform. However, you will need to 
+set the API key for the provider. You can create an API key for OpenAI [here](https://platform.openai.com/api-keys).
+
+Here's an example of deploying the above file, and setting the API key for the OpenAI provider from an env file:
+
+```shell
+cat .env
+# OPENAI_API_KEY=sk-EXAMPLE_API_KEY
+source .env
+./fyodorov deploy test_config.yaml --set "providers[0].api_key=$OPENAI_API_KEY"
+```
+
+## Chatting with your agent
+The command `./fyodorov chat` allows you to interact with an agent from the command line tool. 
+If you just run that command, you will see a list of agents you have deployed, with their name followed by their ID.
+
+![Example of using `./fyodorov chat`](./imgs/fyodorov_chat.png)
+
+In the example configuration above, we created an agent called `"My Agent"`. We can chat with this specific agent 
+by using this command:
+```shell
+./fyodorov chat "My Agent"
+```
+You will be able to chat with your agent like this:
+![Chatting with an agent](./imgs/fyodorov_chatting.png)
 
 ## Getting Help
 
 For more detailed information about each command, you can use the help flag:
-```bash
+```shell
 ./fyodorov [command] --help
 ```
 For example:
 
-```bash
+```shell
 ./fyodorov deploy --help
 ```
 This will provide detailed usage instructions for the deploy command.
