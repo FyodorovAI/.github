@@ -1,7 +1,7 @@
 # Fyodorov AI Suite
 Fyodorov AI is a suite of Open Source tools for creating agents or chatbots. It allows you to create agents or chatbots. 
-It is designed to use modern DevOps principles to simplify deployment and allows you to own your agents and control 
-them end to end without relying on a specific provider or closed source technologies.
+It allows you to own your agents and control them end to end without relying on a specific provider or 
+any closed source technologies. It is designed to use modern DevOps principles to simplify deployment
 
 We're glad you're checking out the project! If you're interested please [star this GitHub repo](https://github.com/FyodorovAI/Gagarin).
 
