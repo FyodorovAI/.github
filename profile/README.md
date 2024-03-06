@@ -19,6 +19,11 @@ and set up the command line tool. Directions for setting up and using the tool c
 
 You can use the command line to sign up, create agents, and chat with them.
 
+## Using the API
+You can browse the API documentation [here](https://gagarin.danielransom.com/docs). An alternative UI is available 
+[here](https://gagarin.danielransom.com/redoc). The raw OpenAPI specification is available at 
+[https://gagarin.danielransom.com/openapi.json](https://gagarin.danielransom.com/openapi.json)
+
 ## Running it locally
 Directions on running Fyodorov locally are available [here](https://github.com/FyodorovAI/.github/blob/main/profile/LOCAL.md).
 
