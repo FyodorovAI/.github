@@ -15,7 +15,7 @@ Fyodorov is ALPHA software!
 
 ## Trying out Fyodorov
 If you want to try out Fyodorov, the best way is to [download](https://github.com/FyodorovAI/fyodorov-cli/releases) 
-and set up the command line tool. Directions for setting up and using the tool can be found [here](https://github.com/FyodorovAI/.github/blob/main/profile/CLI.md)
+and set up the command line tool. Directions for setting up and using the tool can be found [here](https://github.com/FyodorovAI/fyodorov-cli/blob/main/README.md)
 
 You can use the command line to sign up, create agents, and chat with them.
 
