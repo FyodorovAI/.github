@@ -20,7 +20,7 @@ You will need an invite code. If you weren't provided with one you can try this 
 
 ## Deploying the Configuration
 
-If you haven't already created a configuration file, here's an example fyodorov_config.yml to get started:
+If you haven't already created a configuration file, here's an example `config.yml` to get started:
 ```yaml
 version: 0.0.1
 providers:
